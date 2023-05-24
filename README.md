@@ -1,0 +1,3 @@
+<h1>Marine particle detection using DFS</h1>
+<p>The <em>marine_particle_detection.ipynb</em> notebook demonstrates the use of depth-first search (DFS) to count the number of particles in images of "marine snow" (i.e., biogenic particles that are sufficiently large and/or dense to gravitationally settle through the water column).</p>
+<p>With DFS, you can detect particles in an image. Original images of marine snow were first converted to grayscale, sharpened, binarized using locally adaptive thresholding, and resized, such that images are represented as 2-D arrays of 1's and 0's. A recursive implementation of DFS was then used to find all particles, aka "islands" (connected 1's), in an image.</p>
